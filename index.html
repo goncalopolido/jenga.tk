@@ -1,0 +1,93 @@
+ <html>
+ <head>
+
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'UA-149452514-1');
+</script>
+
+ <link rel="stylesheet" type="text/css" href="cssmuitoloco.css">
+ </head>
+<body * { padding: 0; margin: 0; }>
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+</body>
+
+<img onclick="brapp()" id="nuvem2" src="botao.png" class="centered" style="padding-bottom:250px;">
+<section style="position:absolute; bottom:50px;z-index:9999999; width:100%">
+	<a style="color:white" class="chute" href="https://nuvem.art"><div class="disclaimer"> made with <i class="icon ion-heart" style="color: #e25555;"></i> by nuvem#7777</div></a>
+	<link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+</section>
+
+<audio id="som" preload hidden loop src="som1.mp3"></audio>
+<audio id="som2" preload hidden loop src="saxophone.mp3"></audio>
+<audio id="som3" preload hidden loop src="saxophone.mp3"></audio>
+<audio id="som4" preload hidden loop src="violino.mp3"></audio>
+<audio id="som5" preload hidden loop src="violino.mp3"></audio>
+
+<div onmouseover="tfs()" class="trap"></div>
+<div id="nuvem" class="black"></div>
+<div class="centain">
+<div class="center">
+<video id="bromomento" loop src="ONOTIB.mp4"></video>
+</div>
+</div>
+<div class="backg"><img src="jenga.gif">"</div>
+
+<script>
+
+window.onbeforeunload = function() {     return 'baza daqui wi'; }
+
+function brapp() {
+gtag('event', 'play');
+var bromomento = document.getElementById("nuvem");
+bromomento.parentNode.removeChild(bromomento);
+var bromomento = document.getElementById("nuvem2");
+bromomento.parentNode.removeChild(bromomento);
+
+var $video = $('#bromomento');
+  $video.get(0).play();
+var $audio = $('#som');
+  $audio.get(0).play();
+var $audio2 = $('#som2');
+  $audio2.get(0).play();
+var $audio3 = $('#som3');
+  $audio3.get(0).play();
+var $audio4 = $('#som4');
+  $audio4.get(0).play();
+  var $audio4 = $('#som5');
+  $audio5.get(0).play();
+}
+
+function nuvem() {
+   window.open("https://nuvem.art");
+}
+
+function tfs()
+{
+
+	if (!document.fullscreenElement &&  !document.mozFullScreenElement && !document.webkitFullscreenElement)
+	{
+		if (document.documentElement.requestFullscreen)
+		{
+			document.documentElement.requestFullscreen();
+
+		}
+		else if (document.documentElement.mozRequestFullScreen)
+		{
+			document.documentElement.mozRequestFullScreen();
+
+		}
+		else if (document.documentElement.webkitRequestFullscreen)
+		{
+			document.documentElement.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+		}
+	}
+	openBrowser();
+}
+
+</script>
+
+
+	
